@@ -1,0 +1,147 @@
+html {
+    background-color: #ffffff;
+  }
+
+body {
+    width: 90%;
+    margin: auto;
+    border: 5px solid rgb(0, 0, 0);
+    padding-top: 5.9em;
+    min-height: 500px;
+    position: inherit;
+  }
+
+h1 {
+    color: #fff;
+    position: relative;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px 0;
+}
+
+h2{
+    color: #000;
+    position: relative;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 0;
+}
+
+h4 {
+  text-align: center;
+
+}
+
+p {
+  color: #ffffff;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: left;
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+li {
+    color: #ffffff;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: left;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+header {
+  position: absolute;
+  border: #000;
+  border-style: solid;
+  width: 100%;
+  left: 0;
+  margin: 0;
+  top: 0;
+  background-color: #333131;
+  height: 16%;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 19%;
+    border: #000;
+    border-style: solid;
+  }
+
+
+a {
+  color: #000;
+  text-align: center;
+  
+}
+
+.main_container {
+  position: absolute;
+  min-height: 100px;
+  
+}
+
+.nav_bar{
+  color: #000;
+  border: #000;
+  border-style: solid;
+  background-color: #636060;
+  word-spacing: 50px;
+
+}
+
+.footerIndex {
+  width: 100%;
+  left: 0;
+  text-align: center;
+  border: #000;
+  border-style: solid;
+  background-color: #333131;
+  font-family: 'Karla', sans-serif;
+  font-size: 40px;
+  bottom: 0;
+  position: absolute;
+  height: 15%;
+  
+}
+
+.footerCollection {
+  width: 100%;
+  left: 0;
+  text-align: center;
+  border: #000;
+  border-style: solid;
+  background-color: #333131;
+  font-family: 'Karla', sans-serif;
+  font-size: 40px;
+  bottom: 0;
+  position: absolute;
+  height: 15%;
+  
+}
+
+.footer-nav {
+  word-spacing: 10px;;
+
+}
+
+ul {
+  font-size: 30px;
+
+}
+
+@media(max-width:568px){
+  .navbar-nav{display:none}
+}
+
+@media(min-width:568px){
+}

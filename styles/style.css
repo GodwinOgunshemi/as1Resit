@@ -72,9 +72,10 @@ header {
 img {
     display: block;
     margin: 0 auto;
-    width: 19%;
+    width: 40%;
     border: #000;
     border-style: solid;
+    align-content: center;
   }
 
 
@@ -85,7 +86,6 @@ a {
 }
 
 .main_container {
-  position: absolute;
   min-height: 100px;
   
 }
@@ -111,6 +111,7 @@ a {
   bottom: 0;
   position: absolute;
   height: 15%;
+  top: 800px;
   
 }
 
@@ -126,8 +127,41 @@ a {
   bottom: 0;
   position: absolute;
   height: 15%;
-  
+  top: 640px;
+
 }
+
+.footerBio {
+  width: 100%;
+  left: 0;
+  text-align: center;
+  border: #000;
+  border-style: solid;
+  background-color: #333131;
+  font-family: 'Karla', sans-serif;
+  font-size: 40px;
+  bottom: 0;
+  position: absolute;
+  height: 15%;
+  top: 610px;
+
+}
+.footerContact {
+  width: 100%;
+  left: 0;
+  text-align: center;
+  border: #000;
+  border-style: solid;
+  background-color: #333131;
+  font-family: 'Karla', sans-serif;
+  font-size: 40px;
+  bottom: 0;
+  position: absolute;
+  height: 15%;
+  top: 610px;
+
+}
+
 
 .footer-nav {
   word-spacing: 10px;;
@@ -139,6 +173,39 @@ ul {
 
 }
 
+/* image grid code from : https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 @media(max-width:568px){
   .navbar-nav{display:none}
 }
